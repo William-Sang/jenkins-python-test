@@ -26,7 +26,7 @@ class SimpleTest(unittest.TestCase):
         self.assertSetEqual(foo.divide(0,1), 1)
 
 if __name__ == "__main__":
-    unittest.main()
+    SimpleTest.main()
 
 
 
