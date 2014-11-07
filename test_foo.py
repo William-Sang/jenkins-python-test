@@ -6,11 +6,6 @@ import foo
 
 class SimpleTest(unittest.TestCase):
 
-    """Docstring for SimpleTest. """
-
-    def __init__(self):
-        """TODO: to be defined1. """
-        unittest.TestCase.__init__(self)
     def test1(self):
         """TODO: Docstring for tset1.
         :returns: TODO
