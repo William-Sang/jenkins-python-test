@@ -18,7 +18,7 @@ class SimpleTest(unittest.TestCase):
         :returns: TODO
 
         """
-        self.assertSetEqual(foo.divide(2,1), 2)
+        self.assertEqual(foo.divide(0,2),0)
 
 if __name__ == "__main__":
     unittest.main()
